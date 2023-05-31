@@ -1,0 +1,352 @@
+header {
+    background: url(/img/Back-Images.svg) center center/cover no-repeat;
+    height: 322px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    top: 25px;
+    padding-left: 0;
+}
+
+header nav .logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-family: 'Gilroy-Bold' sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 29px;
+}
+
+header .navbar-nav {
+    padding: 0px 20px;
+    font-size: 13px;
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.16);
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #3aa0ab, #8282b9) 1;
+    border-radius: 8px;
+}
+
+header .navbar-nav li .nav-link{
+    color: #fff !important;
+}
+
+header .navbar-nav .dropdown-menu{
+    background: rgba(255, 255, 255, 0.16);
+    min-width: 67px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #3aa0ab, #8282b9) 1;
+    border-radius: 8px;
+}
+
+header .navbar-nav .dropdown-menu a{
+    color: #fff;
+    font-size: 13px;;
+}
+
+
+/* drop-down uchun yeni dizayn */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-toggle {
+    background: rgba(255, 255, 255, 0.01);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+}
+  
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+  
+.dropdown-menu li {
+    padding: 10px;
+}
+  
+.dropdown-menu li a {
+    text-decoration: none;
+}
+  
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* dropdown end */
+
+header .nav_right{
+    position: relative;
+    top: 7px;
+}
+
+header .nav_right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .nav_right .dropdown-menu {
+    background: rgba(255, 255, 255, 0.16);
+    min-width: 270px;
+}
+
+header .nav_right .dropdown-menu .film_list {
+    min-width: 240px;
+    background-color: #000;
+    border-radius: 8px;
+}
+
+header .nav_right .dropdown-menu .film_list img {
+    border-radius: 8px;
+}
+header .nav_right .dropdown-menu .film_list span{
+    color: #fff;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+header .nav_right .dropdown-menu .film_list i {
+    color: #fff;
+    font-size: 9px;
+    position: absolute;
+    right: 22px;
+    margin-top: 16px;
+}
+
+
+header .nav_right  .dropdown-toggle::after {
+    display: none;
+}
+
+header .nav_right button {
+    width: 137px;
+    height: 43px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #3aa0ab, #8282b9) 1;
+    box-shadow: inset -2.41843px -2.41843px 120.921px rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+}
+
+header .nav_right button:hover{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+header .nav_right span i{
+    color: #E24D4D;
+    box-shadow: -1.3px 1.3px 4px rgba(248, 0, 0, 0.4);
+    border-radius: 12.5px;
+    margin-left: 20px;
+}
+
+header .nav_right .sign li a{
+    font-size: 13px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.16);
+    padding: 12px 28px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #3aa0ab, #8282b9) 1;
+    box-shadow: inset -2.41843px -2.41843px 120.921px rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;    
+}
+
+header .nav_right .sign li a:hover{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+/* nav end */
+
+header .volume i{
+    position: relative;
+}
+
+header .volume i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    font-size: 14px;
+    width: 43px;
+    height: 43px;
+    border: 2px solid #0CF9EF;
+    transform: translate(-28px, 115px);
+    right: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+
+/* sliderr start */
+
+
+.product {
+    background-color: #1f1f1f;
+    min-height: 100px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-category {
+    margin-top: 30px;
+}
+
+.product-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 25px;
+}
+
+.product-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-thumb {
+    object-fit: cover;
+}
+
+.product-image i {
+    position: relative;
+    transform: translate(180%);
+    padding: 10px;
+    top: -87px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.16);
+    box-shadow: inset -2.41843px -2.41843px 120.921px rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(5px);
+}
+.product-image .fab {
+    background: radial-gradient(100% 100% at 0% 0%, #0CF9F0 0%, #D686FF 100%);
+    box-shadow: inset -2.53935px -2.53935px 126.967px rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(5.25px);
+}
+
+.product-image:hover i {
+    opacity: 1;
+}
+
+
+.pre-btn, .nxt-btn {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.pre-btn {
+    left: 220px;
+    top: 90px;
+}
+
+.nxt-btn {
+    right: 220px;
+    top: 90px;
+}
+
+.pre-btn i, .nxt-btn i {
+    opacity: 0.2;
+}
+
+.pre-btn:hover i, .nxt-btn:hover i {
+    opacity: 1;
+}
+
+.product-name {
+    font-size: 12px;
+}
+
+.product-name span {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+}
+
+.product-name:hover span {
+    opacity: 1;
+}
+
+.product-card{
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+}
+  
+  
+.product-card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    header .media-dropdown {
+        background-color: #000;
+    }
+
+    .nav_right {
+        display: none;
+    }
+
+    .product-category .pre-btn, .nxt-btn {
+        display: none;
+    }
+
+  }
